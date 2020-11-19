@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4E9618CE2566123300626655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9618CD2566123300626655 /* AppDelegate.swift */; };
 		4E9618D02566123300626655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9618CF2566123300626655 /* SceneDelegate.swift */; };
-		4E9618D22566123300626655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9618D12566123300626655 /* ViewController.swift */; };
+		4E9618D22566123300626655 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9618D12566123300626655 /* FirstViewController.swift */; };
 		4E9618D52566123300626655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9618D32566123300626655 /* Main.storyboard */; };
 		4E9618D72566123400626655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9618D62566123400626655 /* Assets.xcassets */; };
 		4E9618DA2566123400626655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9618D82566123400626655 /* LaunchScreen.storyboard */; };
+		4E9618E2256619A900626655 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9618E1256619A900626655 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E9618CA2566123300626655 /* selfchect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selfchect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9618CD2566123300626655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E9618CF2566123300626655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E9618D12566123300626655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E9618D12566123300626655 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		4E9618D42566123300626655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E9618D62566123400626655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E9618D92566123400626655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E9618DB2566123400626655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9618E1256619A900626655 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				4E9618CD2566123300626655 /* AppDelegate.swift */,
 				4E9618CF2566123300626655 /* SceneDelegate.swift */,
-				4E9618D12566123300626655 /* ViewController.swift */,
+				4E9618D12566123300626655 /* FirstViewController.swift */,
 				4E9618D32566123300626655 /* Main.storyboard */,
 				4E9618D62566123400626655 /* Assets.xcassets */,
 				4E9618D82566123400626655 /* LaunchScreen.storyboard */,
 				4E9618DB2566123400626655 /* Info.plist */,
+				4E9618E1256619A900626655 /* SecondViewController.swift */,
 			);
 			path = selfchect;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9618D22566123300626655 /* ViewController.swift in Sources */,
+				4E9618E2256619A900626655 /* SecondViewController.swift in Sources */,
+				4E9618D22566123300626655 /* FirstViewController.swift in Sources */,
 				4E9618CE2566123300626655 /* AppDelegate.swift in Sources */,
 				4E9618D02566123300626655 /* SceneDelegate.swift in Sources */,
 			);
